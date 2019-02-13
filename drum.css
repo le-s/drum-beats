@@ -2,6 +2,7 @@ html {
   font-size: 10px;
   background: url(https://i2.wp.com/drummagazine.com/wp-content/uploads/2016/03/drums-2599508_1280.jpg?resize=759%2C500) bottom center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body,html {
@@ -13,7 +14,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 93vh;
   align-items: center;
   justify-content: center;
 }
@@ -48,4 +49,21 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  min-height: 5vh;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title h1, h3 {
+  margin: 0;
 }
